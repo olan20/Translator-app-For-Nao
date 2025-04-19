@@ -1,8 +1,7 @@
-streamlit
-speechrecognition
-pyaudio
-gtts
-playsound
-googletrans==4.0.0-rc1
-deepl
-python-dotenv
+streamlit>=1.30.0
+speechrecognition>=3.8.1
+pyaudio>=0.2.13
+gtts>=2.3.2
+pygame>=2.5.2
+deepl>=1.16.0
+python-dotenv>=1.0.0
