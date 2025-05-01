@@ -105,11 +105,11 @@ def run_translation():
     st.subheader(f"Translation ({target_lang}):")
     st.write(translated)
 
-    if st.button("🔊 Play Translated Audio"):
+    if st.button("Play Translated Audio"):
         speak(translated, lang_map[target_lang])
 
 # Translation trigger button
-if st.button("🎤 Record and Translate"):
+if st.button("Record and Translate"):
     with st.spinner("Processing..."):
         run_translation()
 
